@@ -105,3 +105,4 @@ C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\zh-CHS\AjaxControlTo
 C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\zh-CHT\AjaxControlToolkit.resources.dll
 C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.dll
 C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.pdb
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.csprojResolveAssemblyReference.cache
