@@ -12,7 +12,8 @@ namespace Diplomska
     public partial class Download : System.Web.UI.Page
     {
 
-        static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
+        //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
         MySqlConnection conn = new MySqlConnection(connString);
 
         protected void Page_Load(object sender, EventArgs e)

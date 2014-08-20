@@ -20,7 +20,8 @@ public class Upload : IHttpHandler, IRequiresSessionState {
         context.Response.ContentType = "text/plain";
         context.Response.Expires = -1;
 
-        string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        //string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
         MySqlConnection conn = new MySqlConnection(connString);
         conn.Open();
 

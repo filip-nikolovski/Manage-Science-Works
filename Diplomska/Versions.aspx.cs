@@ -14,7 +14,8 @@ namespace Diplomska
 {
     public partial class Versions : System.Web.UI.Page
     {
-        static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+       // static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
         MySqlConnection conn = new MySqlConnection(connString);
         protected DataSet dsHolidays;
         static string swName = "";
