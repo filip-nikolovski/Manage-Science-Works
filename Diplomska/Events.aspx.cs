@@ -25,7 +25,7 @@ namespace Diplomska
                 Session["New"] = "filip@finki.com";
                 if (Session["New"] == null)
                 {
-                    //Response.Redirect("Login.aspx");
+                    Response.Redirect("Login.aspx");
                 }
                 else
                 {

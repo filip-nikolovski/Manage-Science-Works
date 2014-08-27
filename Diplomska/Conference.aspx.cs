@@ -24,7 +24,7 @@ namespace Diplomska
             if (Session["New"] == null)
             {
                  Session["Page"] = "Conference.aspx";
-                //Response.Redirect("Login.aspx");
+                Response.Redirect("Login.aspx");
 
             }
             else
