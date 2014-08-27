@@ -1,0 +1,30 @@
+SELECT * 
+FROM  `holidays` 
+WHERE  `HolidayDate` = CURDATE( ) +1
+OR  `HolidayDate` = CURDATE( ) +2
+OR  `HolidayDate` = CURDATE( ) +3
+OR  `HolidayDate` = CURDATE( ) +4
+OR  `HolidayDate` = CURDATE( ) +0
+ORDER BY  `holidays`.`id` DESC 
+
+
+
+
+SELECT DISTINCT h.id, Holiday, HolidayDate
+FROM holidays h, conference c, science_work sw
+WHERE h.conference_ID = c.id
+AND c.science_work_id = sw.id
+AND sw.autores LIKE  '%filip@finki.com%'
+AND h.id
+IN (
+
+SELECT id
+FROM holidays
+WHERE  `HolidayDate` = CURDATE( ) +1
+OR  `HolidayDate` = CURDATE( ) +2
+OR  `HolidayDate` = CURDATE( ) +3
+OR  `HolidayDate` = CURDATE( ) +4
+OR  `HolidayDate` = CURDATE( ) +0
+)
+
+static string connString = "SERVER=MYSQL5002.Smarterasp.net;DATABASE=db_9ab282_trud;UID=9ab282_trud;PWD=Filip12#;Allow Zero Datetime=True;";
