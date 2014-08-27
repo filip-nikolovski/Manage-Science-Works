@@ -26,7 +26,7 @@ namespace Diplomska
             {
 
             //addWork.Visible = false;
-            Session["New"] = "filip@finki.com";
+           // Session["New"] = "filip@finki.com";
             if (Session["New"] == null)
             {
                  Response.Redirect("Login.aspx");

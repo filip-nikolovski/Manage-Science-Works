@@ -22,7 +22,7 @@ namespace Diplomska
             if (!IsPostBack)
             {
 
-                Session["New"] = "filip@finki.com";
+             //   Session["New"] = "filip@finki.com";
                 if (Session["New"] == null)
                 {
                     Response.Redirect("Login.aspx");
