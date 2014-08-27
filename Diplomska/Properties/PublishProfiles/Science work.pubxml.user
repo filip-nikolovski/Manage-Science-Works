@@ -12,10 +12,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/04/2013 01:25:54</publishTime>
     </File>
     <File Include="Admin.aspx">
+<<<<<<< HEAD
       <publishTime>11/03/2013 13:49:12</publishTime>
     </File>
     <File Include="AdminProfile.aspx">
       <publishTime>11/04/2013 04:45:26</publishTime>
+=======
+      <publishTime>10/03/2013 19:23:09</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
     <File Include="AdminUsers.aspx">
       <publishTime>09/09/2013 23:08:59</publishTime>
@@ -33,7 +37,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/07/2013 03:43:41</publishTime>
     </File>
     <File Include="bin/Diplomska.dll">
+<<<<<<< HEAD
       <publishTime>11/04/2013 12:48:26</publishTime>
+=======
+      <publishTime>10/19/2013 20:22:58</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
     <File Include="bin/es/AjaxControlToolkit.resources.dll">
       <publishTime>02/07/2013 03:43:41</publishTime>
@@ -84,7 +92,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/07/2013 03:43:41</publishTime>
     </File>
     <File Include="Conference.aspx">
+<<<<<<< HEAD
       <publishTime>11/04/2013 03:31:39</publishTime>
+=======
+      <publishTime>10/14/2013 16:54:11</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
     <File Include="CreateIvent.aspx">
       <publishTime>09/12/2013 03:59:45</publishTime>
@@ -99,10 +111,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/18/2013 17:42:17</publishTime>
     </File>
     <File Include="ErrorPage.aspx">
+<<<<<<< HEAD
       <publishTime>10/29/2013 01:49:25</publishTime>
     </File>
     <File Include="Events.aspx">
       <publishTime>11/04/2013 02:48:59</publishTime>
+=======
+      <publishTime>10/01/2013 15:45:01</publishTime>
+    </File>
+    <File Include="Events.aspx">
+      <publishTime>10/14/2013 16:49:05</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
     <File Include="Files/0.jpg">
       <publishTime>10/17/2013 16:30:09</publishTime>
@@ -123,6 +142,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/17/2013 16:30:10</publishTime>
     </File>
     <File Include="Index.aspx">
+<<<<<<< HEAD
       <publishTime>11/04/2013 02:59:42</publishTime>
     </File>
     <File Include="ListingSW.aspx">
@@ -130,6 +150,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Login.aspx">
       <publishTime>10/29/2013 01:52:56</publishTime>
+=======
+      <publishTime>10/14/2013 17:05:02</publishTime>
+    </File>
+    <File Include="ListingSW.aspx">
+      <publishTime>10/03/2013 20:06:22</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>10/02/2013 04:01:14</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
     <File Include="packages.config">
       <publishTime>08/29/2013 00:18:30</publishTime>
@@ -141,10 +170,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/02/2013 19:32:30</publishTime>
     </File>
     <File Include="Register.aspx">
+<<<<<<< HEAD
       <publishTime>11/04/2013 04:23:58</publishTime>
     </File>
     <File Include="RessetPassword.aspx">
       <publishTime>11/03/2013 14:00:28</publishTime>
+=======
+      <publishTime>10/16/2013 14:48:46</publishTime>
+    </File>
+    <File Include="RessetPassword.aspx">
+      <publishTime>10/01/2013 15:59:42</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
     <File Include="scripts/bootstrap.min.js">
       <publishTime>09/04/2013 01:52:58</publishTime>
@@ -159,10 +195,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/04/2013 01:52:58</publishTime>
     </File>
     <File Include="scripts/jquery.uploadify.js">
+<<<<<<< HEAD
       <publishTime>11/04/2013 00:10:58</publishTime>
     </File>
     <File Include="scripts/scrips.js">
       <publishTime>10/24/2013 04:00:04</publishTime>
+=======
+      <publishTime>10/18/2013 02:58:59</publishTime>
+    </File>
+    <File Include="scripts/scrips.js">
+      <publishTime>09/18/2013 02:42:11</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
     <File Include="scripts/uploader.fla">
       <publishTime>10/18/2013 02:59:08</publishTime>
@@ -186,6 +229,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/04/2013 02:21:57</publishTime>
     </File>
     <File Include="style/style.css">
+<<<<<<< HEAD
       <publishTime>11/04/2013 03:01:11</publishTime>
     </File>
     <File Include="Upload.ashx">
@@ -208,6 +252,30 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Web.config">
       <publishTime>11/04/2013 12:48:28</publishTime>
+=======
+      <publishTime>10/19/2013 04:17:46</publishTime>
+    </File>
+    <File Include="Upload.ashx">
+      <publishTime>10/18/2013 18:48:01</publishTime>
+    </File>
+    <File Include="UserProfile.aspx">
+      <publishTime>10/16/2013 15:06:50</publishTime>
+    </File>
+    <File Include="Versions.aspx">
+      <publishTime>10/19/2013 04:56:14</publishTime>
+    </File>
+    <File Include="VersionSource.aspx">
+      <publishTime>10/19/2013 04:42:29</publishTime>
+    </File>
+    <File Include="VerziiAdmin.aspx">
+      <publishTime>10/03/2013 20:03:45</publishTime>
+    </File>
+    <File Include="ViewEvent.aspx">
+      <publishTime>10/16/2013 14:27:35</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/19/2013 20:23:01</publishTime>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     </File>
   </ItemGroup>
 </Project>

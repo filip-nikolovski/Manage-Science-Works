@@ -5,7 +5,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<<<<<<< HEAD
     <title>Настан</title>
+=======
+    <title></title>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     
     <link href="style/style.css" rel="stylesheet" />
     <link href="style/bootstrap.css" rel="stylesheet" />
@@ -51,11 +55,20 @@
 
         
         <div id="acount">
+<<<<<<< HEAD
           <a href="http://www.ukim.edu.mk/" style="float: left">
                     <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /></a><a href="http://www.finki.ukim.mk/mk/home" style="float: left"> <asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a><a href="http://liit.finki.ukim.mk/" style="float: left"><asp:Image ID="ImageliitLogo" runat="server" ImageUrl="~/Images/liit1 logo.png"  Style="height:100%;width:70%;float:left;margin-bottom:-1px"/></a>
               
             <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
           (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="Button1_Click" Text="Logout"></asp:LinkButton>)
+=======
+             <a href="Index.aspx" style="float:left">
+                    <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /><asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a>
+               
+            <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
+            &nbsp;
+            <asp:Button ID="btnLoguot" runat="server" OnClick="Button1_Click" Text="Loguot" Width="70px" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         </div>
 
             <div class="masthead">
@@ -86,7 +99,11 @@
             <asp:Label ID="lblPlace" runat="server" Text=""></asp:Label>
             <div id="butt" style="float:right;padding-right:10%;margin-bottom:5%">
                 <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClick="btnDelete_Click" class="btn btn-primary" />
+<<<<<<< HEAD
                 <asp:Button ID="btnModify" runat="server" Text="Edit" OnClick="btnModify_Click" OnClientClick="display('addWork')" class="scroll btn btn-primary" />
+=======
+                <asp:Button ID="btnModify" runat="server" Text="modify" OnClick="btnModify_Click" OnClientClick="display('addWork')" class="scroll btn btn-primary" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                
             </div>
@@ -97,8 +114,12 @@
             
 
              <asp:Panel  runat="server" ID="addWork" class="add" Style="display: block; padding-left:4%;">
+<<<<<<< HEAD
              
                  <button type="button" class="close" aria-hidden="true" onclick="hide('addWork')">&times;</button>
+=======
+                <input type="button" value="" class="button_add" onclick="hide('addWork')"  />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                  <h3 class="text-muted" >
                     <asp:Label ID="lblTitle1" runat="server" Text="Измени Настан"></asp:Label></h3>
 
@@ -126,7 +147,11 @@
                                     <asp:ListItem Value="date_abstract" Text="Date abstract"></asp:ListItem>
                                     <asp:ListItem Value="date_full_paper" Text="Date full paper"></asp:ListItem>
                                     <asp:ListItem Value="date_izvestuvajne" Text="Date izvestuvajne"></asp:ListItem>
+<<<<<<< HEAD
                                     <asp:ListItem Value="date_camera_ready" Text="Date camera ready"></asp:ListItem>
+=======
+                                    <asp:ListItem Value="date_camera_redy" Text="Date camera redy"></asp:ListItem>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                     <asp:ListItem Value="date_konferencija" Text="Date konferencija"></asp:ListItem>
                                 </asp:DropDownList>
                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlEvent" ValidationGroup="group1" InitialValue="0"></asp:RequiredFieldValidator>
@@ -150,9 +175,15 @@
                     
                     </table>
                  <div class="btnDown" style="margin-right:40%">
+<<<<<<< HEAD
                                 <input type="button" onclick="hide('addWork')" value="Cancel " class="scroll btn btn-primary" />
 
                      <asp:Button ID="btnSave" runat="server" Text="Update" OnClick="btnSave_Click" OnClientClick="display('addWork')" ValidationGroup="group1"  class="btn btn-primary"  />
+=======
+                                <input type="button" onclick="hide('addWork')" value=" cancel " class="scroll btn btn-primary" />
+
+                     <asp:Button ID="btnSave" runat="server" Text="Update Event" OnClick="btnSave_Click" OnClientClick="display('addWork')" ValidationGroup="group1"  class="btn btn-primary"  />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                
                                 
                  </div>
@@ -191,6 +222,7 @@
                         </div>
                             <asp:Button runat="server" ID="hiddenTargetControlForModalPopup" Style="display: none" />
                             <ajaxToolkit:ModalPopupExtender runat="server" ID="programmaticModalPopup" BehaviorID="programmaticModalPopupBehavior"
+<<<<<<< HEAD
                                 TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="Panel1"
                                DropShadow="True" RepositionMode="RepositionOnWindowScroll">
                             </ajaxToolkit:ModalPopupExtender>
@@ -199,6 +231,20 @@
                             <div class="calTitile">
                                 <asp:Label ID="lblPopTitle1" runat="server" Text=""></asp:Label>
                             </div>
+=======
+                                TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="programmaticPopup"
+                               DropShadow="True" RepositionMode="RepositionOnWindowScroll">
+                            </ajaxToolkit:ModalPopupExtender>
+                             <asp:Panel runat="server" CssClass="modalPopupCalendar" ID="programmaticPopup" style="display:none">
+                            <div class="calTitile" >
+                                <asp:Label ID="lblDTitle" runat="server" Text=""></asp:Label>
+                            </div>
+                            <div class="calBody">
+                                <a href="ViewEvent.aspx">
+                                    <asp:Label ID="lblDBody" runat="server" Text="Label"></asp:Label></a><br />
+                            </div>
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                         </asp:Panel>
                       </div>
@@ -206,7 +252,11 @@
                 </section>
                  <h4>Настани кои следуваат</h4>
            <div runat="server"  id="pnl" class="asideReminder">
+<<<<<<< HEAD
                         <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None" EmptyDataText="Нема настани." >
+=======
+                        <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                             <Columns>
                                <asp:BoundField DataField="hol" HeaderText="Event" />
@@ -230,6 +280,7 @@
 
             </div>
 
+<<<<<<< HEAD
         <script type="text/javascript">
 
             var idd;
@@ -253,6 +304,28 @@
                     }, 500);
                 });
 
+=======
+            <script type="text/javascript">
+               
+                function popupModal(value,v) {
+
+                    $get('<%=lblDTitle.ClientID %>').innerText = v;
+                $get('<%=lblDBody.ClientID %>').innerText = value;
+                var pop = $find('programmaticModalPopupBehavior');
+             
+                pop.set_Y(event.clientY);
+                pop.show("slow");
+
+            }
+
+
+            $('#programmaticPopup').on('mouseleave', function () {
+                 
+                setTimeout(function () {
+                    $find("programmaticModalPopupBehavior").hide();
+                }, 500);                  
+            });
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 
                 $(document).ready(function () {
@@ -262,9 +335,15 @@
 
                     document.getElementById('<%=addWork.ClientID%>').style.display = "none";
 
+<<<<<<< HEAD
                 });
 
         </script>
+=======
+                    });
+
+</script>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
     </form>
 </body>

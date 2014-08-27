@@ -11,7 +11,11 @@ body {
   background-color:#F7F2F2;
  
   background: url(../Images/bg-body.jpg) no-repeat left top;
+<<<<<<< HEAD
  overflow-y:scroll;
+=======
+ 
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 }
 
 input,
@@ -239,6 +243,7 @@ input.button_add {
             box-shadow: 0 0 10px #629996;
             -moz-box-shadow: 0 0 10px #629996;     
             padding:0;
+<<<<<<< HEAD
             padding-bottom:3%;
             position:fixed;
             left:425px;
@@ -246,6 +251,13 @@ input.button_add {
           min-height: 80px; 
            width: 225px;
            text-align:center;
+=======
+            position:fixed;
+            left:425px;
+            top:-15px;
+           height: 125px; 
+           width: 225px;
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             
         }
        
@@ -257,7 +269,10 @@ input.button_add {
      color: White;
     font-weight: bold;
     padding:0;
+<<<<<<< HEAD
     margin-bottom:3%;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 }
 
 .modalPopupCalendar .calBody {
@@ -393,9 +408,12 @@ height:27px;
 padding:0px;
 margin:0px;
 margin-right:-5px;
+<<<<<<< HEAD
 }
 
 .description {
 margin-top:20%;
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 }

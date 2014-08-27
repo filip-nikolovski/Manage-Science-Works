@@ -6,16 +6,24 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using MySql.Data.MySqlClient;
 using System.Data;
+<<<<<<< HEAD
 using System.Configuration;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 namespace Diplomska
 {
     public partial class Conference : System.Web.UI.Page
     {
+<<<<<<< HEAD
        // static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
 
         static string connString = ConfigurationManager.ConnectionStrings["connectionStr"].ConnectionString;
        // static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+=======
+        //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         MySqlConnection conn = new MySqlConnection(connString);
         protected DataSet dsHolidays;
 
@@ -26,7 +34,11 @@ namespace Diplomska
              //Session["New"] = "filip@finki.com";
             if (Session["New"] == null)
             {
+<<<<<<< HEAD
                  //["Page"] = "Conference.aspx";
+=======
+                 Session["Page"] = "Conference.aspx";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 Response.Redirect("Login.aspx");
 
             }
@@ -313,7 +325,11 @@ namespace Diplomska
                     string insEvent = "Insert into holidays(HolidayDate, Holiday, conference_ID) values(?HolidayDate, ?Holiday, ?conference_ID)";
                     MySqlCommand cmd1 = new MySqlCommand(insEvent, conn);
                     cmd1.Parameters.Add("?HolidayDate", txtDateCameraRedy.Text);
+<<<<<<< HEAD
                     cmd1.Parameters.Add("?Holiday", "Date camera ready");
+=======
+                    cmd1.Parameters.Add("?Holiday", "Date camera redy");
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     cmd1.Parameters.Add("?conference_ID", Convert.ToInt32(cmd.LastInsertedId));
                     cmd1.ExecuteNonQuery();
                 }
@@ -492,6 +508,7 @@ namespace Diplomska
             cmd.Parameters.Add("?science_work_id", ddlNaucenTrud.SelectedValue);
             cmd.ExecuteNonQuery();
 
+<<<<<<< HEAD
           
 
             if (txtDateAbstract.Text != null && txtDateAbstract.Text !="0000-00-00")
@@ -668,6 +685,58 @@ namespace Diplomska
                     cmd1.Parameters.Add("?conference_ID", rId.ToString());
                     cmd1.ExecuteNonQuery();
                 }
+=======
+            if (txtDateAbstract.Text != null)
+            {
+
+                string insEvent = "UPDATE holidays set HolidayDate=?HolidayDate where conference_ID=?conference_ID and Holiday=?Holiday";
+                MySqlCommand cmd1 = new MySqlCommand(insEvent, conn);
+                cmd1.Parameters.Add("?HolidayDate", txtDateAbstract.Text);
+                cmd1.Parameters.Add("?Holiday", "date_abstract");
+                cmd1.Parameters.Add("?conference_ID", rId.ToString());
+                cmd1.ExecuteNonQuery();
+            }
+
+            if (txtDateFullPaper.Text != null)
+            {
+
+                string insEvent = "UPDATE holidays set HolidayDate=?HolidayDate where conference_ID=?conference_ID and Holiday=?Holiday";
+                MySqlCommand cmd1 = new MySqlCommand(insEvent, conn);
+                cmd1.Parameters.Add("?HolidayDate", txtDateFullPaper.Text);
+                cmd1.Parameters.Add("?Holiday", "date_full_paper");
+                cmd1.Parameters.Add("?conference_ID", rId.ToString());
+                cmd1.ExecuteNonQuery();
+            }
+            if (txtDateIzvestuvanje.Text != null)
+            {
+
+                string insEvent = "UPDATE holidays set HolidayDate=?HolidayDate where conference_ID=?conference_ID and Holiday=?Holiday";
+                MySqlCommand cmd1 = new MySqlCommand(insEvent, conn);
+                cmd1.Parameters.Add("?HolidayDate", txtDateIzvestuvanje.Text);
+                cmd1.Parameters.Add("?Holiday", "date_izvestuvajne");
+                cmd1.Parameters.Add("?conference_ID", rId.ToString());
+                cmd1.ExecuteNonQuery();
+            }
+            if (txtDateCameraRedy.Text != null)
+            {
+
+                string insEvent = "UPDATE holidays set HolidayDate=?HolidayDate where conference_ID=?conference_ID and Holiday=?Holiday";
+                MySqlCommand cmd1 = new MySqlCommand(insEvent, conn);
+                cmd1.Parameters.Add("?HolidayDate", txtDateCameraRedy.Text);
+                cmd1.Parameters.Add("?Holiday", "date_camera_redy");
+                cmd1.Parameters.Add("?conference_ID", rId.ToString());
+                cmd1.ExecuteNonQuery();
+            }
+            if (txtDateConferencija.Text != null)
+            {
+
+                string insEvent = "UPDATE holidays set HolidayDate=?HolidayDate  where conference_ID=?conference_ID and Holiday=?Holiday";
+                MySqlCommand cmd1 = new MySqlCommand(insEvent, conn);
+                cmd1.Parameters.Add("?HolidayDate", txtDateConferencija.Text);
+                cmd1.Parameters.Add("?Holiday", "date_konferencija");
+                cmd1.Parameters.Add("?conference_ID", rId.ToString());
+                cmd1.ExecuteNonQuery();
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             }
 
 

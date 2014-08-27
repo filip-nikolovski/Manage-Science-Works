@@ -4,7 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<<<<<<< HEAD
     <title>Верзии</title>
+=======
+    <title></title>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
  
      <link href="style/style.css" rel="stylesheet" />
     <link href="style/bootstrap.css" rel="stylesheet" />
@@ -20,12 +24,25 @@
 
          <div class="masthead">
                   <div id="acount">
+<<<<<<< HEAD
                 <a href="http://www.ukim.edu.mk/" style="float: left">
                     <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /></a><a href="http://www.finki.ukim.mk/mk/home" style="float: left"> <asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a><a href="http://liit.finki.ukim.mk/" style="float: left"><asp:Image ID="ImageliitLogo" runat="server" ImageUrl="~/Images/liit1 logo.png"  Style="height:100%;width:70%;float:left;margin-bottom:-1px"/></a>
 
                       <asp:Label ID="lblLoged" runat="server" Text=""></asp:Label> <a href="AdminProfile.aspx">  <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label></a>
 
                        (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="btnLoguot_Click" Text="Logout"></asp:LinkButton>)
+=======
+                 <a href="Index.aspx" style="float:left">
+                    <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /><asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a>
+               
+                <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label>
+
+                &nbsp;
+
+        <asp:Button ID="btnLoguot" runat="server" Text="Loguot" Width="70px" OnClick="btnLoguot_Click" />
+
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             </div>
              <ul class="nav nav-justified">
           <li ><a href="Admin.aspx">Корисници</a></li>

@@ -175,6 +175,7 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.DropDownList ddlFaculty;
         
         /// <summary>
+<<<<<<< HEAD
         /// txtFaculty control.
         /// </summary>
         /// <remarks>
@@ -184,6 +185,8 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.TextBox txtFaculty;
         
         /// <summary>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// RequiredFieldValidator7 control.
         /// </summary>
         /// <remarks>
@@ -238,6 +241,7 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.DropDownList ddlLab;
         
         /// <summary>
+<<<<<<< HEAD
         /// txtLab control.
         /// </summary>
         /// <remarks>
@@ -247,6 +251,8 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.TextBox txtLab;
         
         /// <summary>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// RequiredFieldValidator6 control.
         /// </summary>
         /// <remarks>

@@ -211,6 +211,7 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
         
         /// <summary>
+<<<<<<< HEAD
         /// lblFaculty control.
         /// </summary>
         /// <remarks>
@@ -248,84 +249,147 @@ namespace Diplomska {
         
         /// <summary>
         /// lblLab control.
+=======
+        /// lblEmail control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label lblLab;
         
         /// <summary>
         /// lblLab1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLab1;
-        
-        /// <summary>
-        /// txtLab1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLab1;
-        
-        /// <summary>
-        /// RequiredFieldValidator7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
-        
-        /// <summary>
-        /// lblEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
+=======
         protected global::System.Web.UI.WebControls.Label lblEmail;
         
         /// <summary>
         /// lblEmail1 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Label lblLab1;
+        
+        /// <summary>
+        /// txtLab1 control.
+=======
         protected global::System.Web.UI.WebControls.Label lblEmail1;
         
         /// <summary>
         /// txtEmail control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.TextBox txtLab1;
+        
+        /// <summary>
+        /// RequiredFieldValidator7 control.
+=======
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        
+        /// <summary>
+        /// regexEmailValid control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
+        
+        /// <summary>
+        /// lblEmail control.
+=======
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator regexEmailValid;
+        
+        /// <summary>
+        /// RequiredFieldValidator6 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Label lblEmail;
+        
+        /// <summary>
+        /// lblEmail1 control.
+=======
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
+        
+        /// <summary>
+        /// lblLab control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Label lblEmail1;
+        
+        /// <summary>
+        /// txtEmail control.
+=======
+        protected global::System.Web.UI.WebControls.Label lblLab;
+        
+        /// <summary>
+        /// lblLab1 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
         /// RequiredFieldValidator6 control.
+=======
+        protected global::System.Web.UI.WebControls.Label lblLab1;
+        
+        /// <summary>
+        /// ddlLabs control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
         
         /// <summary>
         /// regexEmailValid control.
+=======
+        protected global::System.Web.UI.WebControls.DropDownList ddlLabs;
+        
+        /// <summary>
+        /// RequiredFieldValidator7 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.RegularExpressionValidator regexEmailValid;
+=======
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         
         /// <summary>
         /// btnCancel1 control.
@@ -373,13 +437,21 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.TextBox txtPass;
         
         /// <summary>
+<<<<<<< HEAD
         /// RequiredFieldValidator5 control.
+=======
+        /// RegularExpressionValidator1 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+=======
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         
         /// <summary>
         /// lblRepeatPass control.
@@ -400,13 +472,21 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.TextBox txtRePass;
         
         /// <summary>
+<<<<<<< HEAD
         /// RequiredFieldValidator8 control.
+=======
+        /// RequiredFieldValidator5 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator8;
+=======
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         
         /// <summary>
         /// CompareValidator1 control.
@@ -418,6 +498,7 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
         
         /// <summary>
+<<<<<<< HEAD
         /// lblErr control.
         /// </summary>
         /// <remarks>
@@ -427,6 +508,8 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.Label lblErr;
         
         /// <summary>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// lblNewPass control.
         /// </summary>
         /// <remarks>
@@ -479,5 +562,17 @@ namespace Diplomska {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSave;
+<<<<<<< HEAD
+=======
+        
+        /// <summary>
+        /// lblErr control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErr;
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     }
 }

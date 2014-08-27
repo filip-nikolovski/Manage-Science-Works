@@ -74,6 +74,7 @@
 
                                     </td>
                                 </tr>
+<<<<<<< HEAD
 
                                 <tr>
                                     <td style="text-align: left">
@@ -117,6 +118,34 @@
                                     </td>
                                 </tr>
                     
+=======
+                                <tr>
+                                    <td style="text-align:left">
+                                        <asp:Label ID="lblEmail" runat="server" Text="email "></asp:Label>
+                                    </td>
+                                    <td style="padding-left:2%;">
+                                        <asp:Label ID="lblEmail1" runat="server" Text=""></asp:Label>
+                                         <asp:TextBox ID="txtEmail" runat="server" Visible="false" class="form-control"></asp:TextBox>
+                     <asp:RegularExpressionValidator ID="regexEmailValid" runat="server" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtEmail" ErrorMessage="*Неправилен емаил формат" Display="Dynamic" ValidationGroup="group12"></asp:RegularExpressionValidator>
+                                            
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtEmail" ValidationGroup="group12"></asp:RequiredFieldValidator>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:left">
+                                        <asp:Label ID="lblLab" runat="server" Text="лабораторија " ></asp:Label>
+                                    </td>
+                                    <td style="padding-left:2%;">
+                                        <asp:Label ID="lblLab1" runat="server" Text=""></asp:Label>
+                                        <asp:DropDownList ID="ddlLabs" runat="server" DataValueField="id" class="form-control" DataTextField="Name" AutoPostBack="false" AppendDataBoundItems="true" Visible="false">
+                                        <asp:ListItem Value="0">-- Select labaratory --</asp:ListItem>
+                                        </asp:DropDownList>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlLabs" InitialValue="0" ValidationGroup="group12"></asp:RequiredFieldValidator>
+                                   
+                                         </td>
+                                </tr>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                          
                              
                             </table>
@@ -137,7 +166,11 @@
                                     </td>
                                     <td style="padding-left:5%;">
                                         <asp:TextBox ID="txtPass" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
+<<<<<<< HEAD
                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtPass" ValidationGroup="group1"></asp:RequiredFieldValidator>
+=======
+                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ValidationExpression="^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*$" ControlToValidate="txtPass" ErrorMessage="*Неправилен формат на лозинка" Display="Dynamic" ValidationGroup="group1"></asp:RegularExpressionValidator><br />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                             
                                     </td>
                                 </tr>
@@ -146,12 +179,18 @@
                                         <asp:Label ID="lblRepeatPass" runat="server" Text="Повтори ја постоечката лозинка"></asp:Label>
                                     </td>
                                     <td style="padding-left:5%;">
+<<<<<<< HEAD
                         
                                                         <asp:TextBox ID="txtRePass" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtRePass" ValidationGroup="group1"></asp:RequiredFieldValidator>
                     
                                         <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="*Внеси иста лозинка" ControlToValidate="txtRePass" ControlToCompare="txtPass" ValidationGroup="group1" Display="Dynamic"></asp:CompareValidator>
                              <asp:Label ID="lblErr" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
+=======
+                                        <asp:TextBox ID="txtRePass" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtRePass" ValidationGroup="group1"></asp:RequiredFieldValidator>
+                    <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="*Внеси иста лозинка" ControlToValidate="txtRePass" ControlToCompare="txtPass" ValidationGroup="group1" Display="Dynamic"></asp:CompareValidator>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 
                                     </td>
                                 </tr>
@@ -177,6 +216,10 @@
                                 </div>
                                 <br />
                                 </div>
+<<<<<<< HEAD
+=======
+                             <asp:Label ID="lblErr" runat="server" Text="" Visible="false" ForeColor="Red"></asp:Label>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                         </div>
                     </div>

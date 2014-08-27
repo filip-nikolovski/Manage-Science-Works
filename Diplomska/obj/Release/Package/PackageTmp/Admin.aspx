@@ -4,7 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<<<<<<< HEAD
     <title>Корисници</title>
+=======
+    <title></title>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
  
      
      <link href="style/style.css" rel="stylesheet" />
@@ -17,11 +21,20 @@
       
         <div  class="container">
             <div id="acount">
+<<<<<<< HEAD
                  <a href="http://www.ukim.edu.mk/" style="float: left">
                     <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /></a><a href="http://www.finki.ukim.mk/mk/home" style="float: left"> <asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a><a href="http://liit.finki.ukim.mk/" style="float: left"><asp:Image ID="ImageliitLogo" runat="server" ImageUrl="~/Images/liit1 logo.png"  Style="height:100%;width:70%;float:left;margin-bottom:-1px"/></a>
                 <asp:Label ID="lblLoged" runat="server" Text=""></asp:Label><a href="AdminProfile.aspx">  <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label></a>
             
                  (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="Button1_Click" Text="Logout"></asp:LinkButton>)
+=======
+                 <a href="Index.aspx" style="float:left">
+                    <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /><asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a>
+               
+                 <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label>
+            &nbsp;
+        <asp:Button ID="btnLoguot" runat="server" OnClick="Button1_Click" Text="Loguot" Width="70px" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             </div>
            
 
@@ -59,7 +72,11 @@
                     <asp:BoundField DataField="surname" HeaderText="Surname" />
                     <asp:BoundField DataField="email" HeaderText="Email" />
                     <asp:BoundField DataField="labs_id" HeaderText="labratory" />
+<<<<<<< HEAD
                    
+=======
+                    <asp:BoundField DataField="accsepted" HeaderText="accsepted" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     <asp:TemplateField >
                         <ItemTemplate>
                             <asp:RadioButton runat="server" GroupName="venc" ID="rd1" Text="add"/>
@@ -74,7 +91,11 @@
 
                     
                    
+<<<<<<< HEAD
                     <asp:ButtonField CommandName="Select" Text="applay" HeaderText="Confirm" ButtonType="Button" />
+=======
+                    <asp:ButtonField CommandName="Select" Text="aplay" HeaderText="Confirm" ButtonType="Button" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 </Columns>
                 <EditRowStyle BackColor="#999999" />
                 <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

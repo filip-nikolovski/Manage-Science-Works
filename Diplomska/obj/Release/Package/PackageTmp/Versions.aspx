@@ -4,7 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<<<<<<< HEAD
     <title>Верзии</title>
+=======
+    <title></title>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
    
      <link href="style/style.css" rel="stylesheet" />
@@ -23,7 +27,11 @@
              //window.location = "#addConference ";
              $('html,body').animate({
                  scrollTop: $("#newVersion").offset().top
+<<<<<<< HEAD
              }, 750);
+=======
+             }, 1000);
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
            
          }
@@ -58,11 +66,20 @@
         <ajaxToolkit:ToolkitScriptManager runat="Server" ID="ScriptManager1" />
         <div class="container">
             <div id="acount">
+<<<<<<< HEAD
                <a href="http://www.ukim.edu.mk/" style="float: left">
                     <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /></a><a href="http://www.finki.ukim.mk/mk/home" style="float: left"> <asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a><a href="http://liit.finki.ukim.mk/" style="float: left"><asp:Image ID="ImageliitLogo" runat="server" ImageUrl="~/Images/liit1 logo.png"  Style="height:100%;width:70%;float:left;margin-bottom:-1px"/></a>
 
                 <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
               (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="Button1_Click" Text="Logout"></asp:LinkButton>)
+=======
+                <a href="Index.aspx" style="float: left">
+                    <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /><asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a>
+
+                <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
+                &nbsp;
+        <asp:Button ID="btnLoguot" runat="server" OnClick="Button1_Click" Text="Loguot" Width="70px" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             </div>
 
             <div class="masthead">
@@ -76,7 +93,11 @@
                 <a href="Index.aspx" style="margin-bottom: -15px;">Научен Труд> </a>Верзии
             </div>
 
+<<<<<<< HEAD
             <div class="main-content" style="width:73%">
+=======
+            <div class="main-content">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                     <ContentTemplate>
 
@@ -90,7 +111,11 @@
 
                                 <asp:Label ID="lblNew" runat="server" Text="Додади нова верзија"></asp:Label>
 
+<<<<<<< HEAD
                                 <input type="button" onclick="display('newVersion')" value=" add " class=" btn btn-default" />
+=======
+                                <input type="button" onclick="display('newVersion')" value=" add " class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             </div>
                             <asp:GridView ID="gvVersions" runat="server" DataKeyNames="id_version" OnRowCreated="gvVersions_RowCreated" AutoGenerateColumns="False" OnSelectedIndexChanged="gvVersions_SelectedIndexChanged" Style="width: 100%" CellPadding="4" ForeColor="#333333" GridLines="None">
                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
@@ -103,37 +128,61 @@
                                     <asp:BoundField DataField="version_name" HeaderText="Version Name" />
                                     <asp:BoundField DataField="uploader" HeaderText="Uploaded by" />
                                     <asp:BoundField DataField="date_upload" HeaderText="Date Uplod" />
+<<<<<<< HEAD
                                     <asp:BoundField DataField="description" HeaderText="Description" />
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 
                                     <asp:TemplateField HeaderText="Active Version">
                                         <ItemTemplate>
+<<<<<<< HEAD
                                             <input name="MyRadioButton" type="radio" value='<%# Eval("id_version") %>' />
+=======
+                                            <asp:RadioButton ID="rb" runat="server" value='<%# Eval("id_version") %>' />
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField>
                                         <ItemTemplate>
                                             <asp:Button ID="btnEdit" runat="server" Text="edit" RowIndex='<%# Eval("id_version") %>'
+<<<<<<< HEAD
                                                 OnClick="btnEdit_click" OnClientClick="display1('newVersion1')" class=" btn btn-default" />
+=======
+                                                OnClick="btnEdit_click" OnClientClick="display1('newVersion1')" class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField>
                                         <ItemTemplate>
+<<<<<<< HEAD
                                             <asp:Button ID="ibtn1" runat="server" Text="delete" RowIndex='<%# Eval("id_version") %>' OnClick="button_click" class=" btn btn-default" />
+=======
+                                            <asp:Button ID="ibtn1" runat="server" Text="delete" RowIndex='<%# Eval("id_version") %>' OnClick="button_click" class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                       <asp:TemplateField>
                                         <ItemTemplate>
+<<<<<<< HEAD
                                             <asp:Button ID="btnSource" runat="server" Text="source files" RowIndex='<%# Eval("id_version") %>' OnClick="btnSource_Click" class="btn btn-default" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
                              
                                      <asp:TemplateField>
+=======
+                                            <asp:Button ID="btnSource" runat="server" Text="source code" RowIndex='<%# Eval("id_version") %>' OnClick="btnSource_Click" class="btn btn-default" />
+                                        </ItemTemplate>
+                                    </asp:TemplateField>
+                                    <asp:TemplateField>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         <ItemTemplate>
                                             <a href="<%# Eval("file_path")%>">download</a>
                                         </ItemTemplate>
                                     </asp:TemplateField>
 
+<<<<<<< HEAD
                                     <asp:TemplateField>
                                     <ItemTemplate>
                                         <asp:LinkButton ID="lnkDownload" Text = "view" RowIndex= '<%# Eval("id_version") %>' runat="server" OnClick = "DownloadFile"></asp:LinkButton>
@@ -141,6 +190,8 @@
                                 </asp:TemplateField>
                                 
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                 </Columns>
                                 <EditRowStyle BackColor="#999999" />
                                 <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
@@ -162,8 +213,12 @@
 
                         <div runat="server" id="newVersion1" style="display: block" class="add">
 
+<<<<<<< HEAD
                             
                             <button type="button" class="close" aria-hidden="true" onclick="hide('newVersion1')">&times;</button>
+=======
+                            <input type="button" value="" class="button_add" onclick="hide('newVersion1')" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             <h3 class="text-muted">
                                 <asp:Label ID="Label2" runat="server" Text="Измени "></asp:Label></h3>
                             <table >
@@ -178,6 +233,7 @@
                                 </tr>
                                 <tr>
                                     <td>
+<<<<<<< HEAD
                                         <asp:Label ID="lblDesc" runat="server" Text="Опис "></asp:Label></td>
                                     <td>
                                         <asp:TextBox ID="txtDesc" runat="server" class="form-control"></asp:TextBox>
@@ -186,6 +242,8 @@
                                 </tr>
                                 <tr>
                                     <td>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         <asp:Label ID="lblActive1" runat="server" Text="Дали верзијата е активна"></asp:Label></td>
                                     <td>
                                         <asp:RadioButtonList ID="RadioButtonList11" runat="server">
@@ -197,7 +255,11 @@
 
                             </table>
                             <div class="btnDown" style="margin-right:33%">
+<<<<<<< HEAD
                                         <input type="button" onclick="hide('newVersion1')" value="Cancel" class=" btn btn-primary" />
+=======
+                                        <input type="button" onclick="hide('newVersion1')" value="Cancel" class="scroll btn btn-primary" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                                  <asp:Button ID="btnUpdate1" runat="server" Text="Update" OnClick="btnUpdate_Click" class="btn btn-primary" Visible="false"  ValidationGroup="group1"/>
                                     
@@ -211,8 +273,12 @@
 
                 <div runat="server" id="newVersion" style="display: block" class="add">
 
+<<<<<<< HEAD
                    
                     <button type="button" class="close" aria-hidden="true" onclick="hide('newVersion')">&times;</button>
+=======
+                    <input type="button" value="" class="button_add" onclick="hide('newVersion')" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     <h3 class="text-muted">
                         <asp:Label ID="lblTitle1" runat="server" Text="Креирај Верзија"></asp:Label></h3>
                     <table >
@@ -225,6 +291,7 @@
 
                             </td>
                         </tr>
+<<<<<<< HEAD
 
                         <tr>
                             <td>
@@ -235,6 +302,8 @@
                             </td>
                         </tr>
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                         <tr>
                             <td>
                                 <asp:Label ID="lblActive" runat="server" Text="Дали верзијата е активна "></asp:Label></td>
@@ -255,9 +324,15 @@
                         
                     </table>
                     <div class="btnDown" style="margin-right:33%">
+<<<<<<< HEAD
                                 <input type="button" onclick="hide('newVersion')" value="Cancel" class=" btn btn-primary" />
 
                         <asp:Button ID="btnConfirmAdd" runat="server" Text="Save" OnClick="btnConfirmAdd_Click" class="btn btn-primary" ValidationGroup="group2"/>
+=======
+                                <input type="button" onclick="hide('newVersion')" value="Cancel" class="scroll btn btn-primary" />
+
+                        <asp:Button ID="btnConfirmAdd" runat="server" Text="confirm" OnClick="btnConfirmAdd_Click" class="btn btn-primary" ValidationGroup="group2"/>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                             
                     </div>
@@ -265,7 +340,11 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
             <div class="aside" style="width:25%">
+=======
+            <div class="aside">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 <section>
                    
                     <div id="inTouch">
@@ -282,6 +361,7 @@
                              </div>
                         <asp:Button runat="server" ID="hiddenTargetControlForModalPopup" Style="display: none" />
                         <ajaxToolkit:ModalPopupExtender runat="server" ID="programmaticModalPopup" BehaviorID="programmaticModalPopupBehavior"
+<<<<<<< HEAD
                             TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="Panel1"
                             DropShadow="True" RepositionMode="RepositionOnWindowScroll">
                         </ajaxToolkit:ModalPopupExtender>
@@ -291,6 +371,19 @@
                                 <asp:Label ID="lblPopTitle1" runat="server" Text=""></asp:Label>
                             </div>
 
+=======
+                            TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="programmaticPopup"
+                            DropShadow="True" RepositionMode="RepositionOnWindowScroll">
+                        </ajaxToolkit:ModalPopupExtender>
+                        <asp:Panel runat="server" CssClass="modalPopupCalendar" ID="programmaticPopup" style="display:none">
+                            <div class="calTitile">
+                                <asp:Label ID="lblDTitle" runat="server" Text=""></asp:Label>
+                            </div>
+                            <div class="calBody">
+                                <a href="ViewEvent.aspx">
+                                    <asp:Label ID="lblDBody" runat="server" Text="Label"></asp:Label></a><br />
+                            </div>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                         </asp:Panel>
                     </div>
 
@@ -299,7 +392,11 @@
            <div runat="server"  id="pnl" class="asideReminder">
                     
 
+<<<<<<< HEAD
                     <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None" EmptyDataText="Нема настани." >
+=======
+                    <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                         <Columns>
                             <asp:BoundField DataField="hol" HeaderText="Event" />
@@ -335,6 +432,7 @@
         </script>
 
         
+<<<<<<< HEAD
         <script>
             var idd;
             function ShowInfo(id, ss) {
@@ -356,6 +454,27 @@
                         $find("programmaticModalPopupBehavior").hide();
                     }, 500);
                 });
+=======
+            <script>
+                function popupModal(value, v) {
+
+                    $get('<%=lblDTitle.ClientID %>').innerText = v;
+                $get('<%=lblDBody.ClientID %>').innerText = value;
+                var pop = $find('programmaticModalPopupBehavior');
+
+                pop.set_Y(event.clientY);
+                pop.show("slow");
+
+            }
+
+
+            $('#programmaticPopup').on('mouseleave', function () {
+
+                setTimeout(function () {
+                    $find("programmaticModalPopupBehavior").hide();
+                }, 500);
+            });
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 
         </script>

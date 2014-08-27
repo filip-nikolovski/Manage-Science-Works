@@ -5,7 +5,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
+<<<<<<< HEAD
     <title>Настани</title>
+=======
+    <title></title>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
     <link href="style/style.css" rel="stylesheet" />
     <link href="style/bootstrap.css" rel="stylesheet" />
@@ -45,6 +49,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+<<<<<<< HEAD
         <div class="container">
             <div id="acount">
                 <a href="http://www.ukim.edu.mk/" style="float: left">
@@ -53,6 +58,20 @@
                 <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
 
               (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="Button1_Click" Text="Logout"></asp:LinkButton>)
+=======
+        <ajaxToolkit:ToolkitScriptManager runat="Server" ID="ScriptManager1" />
+        <div class="container">
+            <div id="acount">
+                 <a href="Index.aspx" style="float:left">
+                    <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /><asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a>
+               
+                <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
+
+                &nbsp;
+
+        <asp:Button ID="btnLoguot" runat="server" OnClick="Button1_Click" Text="Loguot" Width="70px" />
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
             </div>
 
@@ -66,10 +85,13 @@
                 </ul>
             </div>
         
+<<<<<<< HEAD
              <asp:ScriptManager ID="ScriptManager2" runat="server">
                         </asp:ScriptManager>
             
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         <div class="main-content" >
              <div class="main-content1">
                  <div class="topMain">
@@ -106,12 +128,20 @@
             </asp:GridView>
            
             <asp:Label ID="lblErr" runat="server" Text="" ForeColor="Red"></asp:Label>
+<<<<<<< HEAD
                  
       
             </div>
              <asp:Panel  runat="server" ID="addWork" class="add" Style="display: none">
                
                  <button type="button" class="close" aria-hidden="true"  onclick="hide('addWork')">&times;</button>
+=======
+
+      
+            </div>
+             <asp:Panel  runat="server" ID="addWork" class="add" Style="display: none">
+                <input type="button" value="" class="button_add" onclick="hide('addWork')" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                  <h3 class="text-muted" >
                     <asp:Label ID="lblTitle1" runat="server" Text="Креирај Настан"></asp:Label></h3>
 
@@ -140,7 +170,11 @@
                     <asp:ListItem Value="date_abstract">Date abstract</asp:ListItem>
                     <asp:ListItem Value="date_full_paper">Date full paper </asp:ListItem>
                     <asp:ListItem Value="date_izvestuvajne">Date izvestuvajne</asp:ListItem>
+<<<<<<< HEAD
                     <asp:ListItem Value="date_camera_ready">Date camera ready</asp:ListItem>
+=======
+                    <asp:ListItem Value="date_camera_redy">Date camera redy</asp:ListItem>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     <asp:ListItem Value="date_konferencija">Date konferencija</asp:ListItem>
                 </asp:DropDownList>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlEvent" ValidationGroup="group1" InitialValue="0"></asp:RequiredFieldValidator>
@@ -166,9 +200,15 @@
                 </table>
 
                  <div class="btnDown" style="margin-right:42%">
+<<<<<<< HEAD
                             <input type="button" onclick="hide('addWork')" value="Cancel " class="scroll btn btn-primary"/>
 
                       <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" ValidationGroup="group1"  class="btn btn-primary"/>
+=======
+                            <input type="button" onclick="hide('addWork')" value=" cancel " class="scroll btn btn-primary"/>
+
+                      <asp:Button ID="btnSave" runat="server" Text="Save Event" OnClick="btnSave_Click" ValidationGroup="group1"  class="btn btn-primary"/>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             
                  </div>
         
@@ -176,7 +216,10 @@
            
             </asp:Panel>
         </div>
+<<<<<<< HEAD
         
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             <div class="aside">
                 
                 
@@ -187,9 +230,13 @@
                         
                             <div class="asideCalendar">
 
+<<<<<<< HEAD
                                 
 
                             <asp:Calendar ID="Calendar1"  SelectionMode="Day" runat="server" OnDayRender="Calendar1_DayRender"   OnVisibleMonthChanged="Calendar1_VisibleMonthChanged" OnSelectionChanged="Calendar1_SelectionChanged"  Style="width: 100%">
+=======
+                            <asp:Calendar ID="Calendar1" runat="server" OnDayRender="Calendar1_DayRender"  OnVisibleMonthChanged="Calendar1_VisibleMonthChanged" OnSelectionChanged="Calendar1_SelectionChanged" Style="width: 100%">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                 <TodayDayStyle BackColor="#D1DDF1" ForeColor="White" />
                                 <OtherMonthDayStyle ForeColor="#CC9966" />
                                 <NextPrevStyle Font-Size="9pt" ForeColor="#FFFFCC" />
@@ -200,6 +247,7 @@
                 
                             <asp:Button runat="server" ID="hiddenTargetControlForModalPopup" Style="display: none" />
                             <ajaxToolkit:ModalPopupExtender runat="server" ID="programmaticModalPopup" BehaviorID="programmaticModalPopupBehavior"
+<<<<<<< HEAD
                                 TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="Panel1"
                                 DropShadow="True" >
                             </ajaxToolkit:ModalPopupExtender>
@@ -215,6 +263,34 @@
            <div runat="server"  id="pnl" class="asideReminder">
                    
                         <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None" EmptyDataText="Нема настани во наредните неколку денови.">
+=======
+                                TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="programmaticPopup"
+                                DropShadow="True" >
+                            </ajaxToolkit:ModalPopupExtender>
+                        <asp:Panel runat="server" CssClass="modalPopupCalendar" ID="programmaticPopup" style="display:none">
+                            <div class="calTitile" >
+                                <asp:Label ID="lblDTitle" runat="server" Text=""></asp:Label>
+                            </div>
+                            <div class="calBody">
+                                <asp:GridView ID="gvCalendar" runat="server" DataKeyNames="id"  OnRowCreated="gvCalendar_RowCreated"  OnSelectedIndexChanged="gvCalendar_SelectedIndexChanged" AutoGenerateColumns="false" GridLines="None" ShowHeader="false">
+                                    <Columns>
+                                        <asp:TemplateField>
+                                            <ItemTemplate>
+                                                   <asp:LinkButton ID="lb" runat="server" Text='<%# Eval("Holiday") %>'></asp:LinkButton>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                    </Columns>
+                                </asp:GridView>
+                            </div>
+
+
+                        </asp:Panel>
+
+                    <h4>Настани кои следуваат</h4>
+           <div runat="server"  id="pnl" class="asideReminder">
+                   
+                        <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                             <Columns>
                                 <asp:BoundField DataField="hol" HeaderText="Event" />
@@ -238,6 +314,7 @@
                 </section>
                 
             </div>
+<<<<<<< HEAD
            
             </div>
        
@@ -262,6 +339,33 @@
                     $find("programmaticModalPopupBehavior").hide();
                 }, 500);
             });
+=======
+
+        
+            </div>
+       
+            <script>
+                function popupModal(value, v) {
+
+                    $get('<%=lblDTitle.ClientID %>').innerText = v;
+                  
+                var pop = $find('programmaticModalPopupBehavior');
+
+                pop.set_Y(event.clientY);
+                pop.show();
+                
+            }
+
+
+            $('#programmaticPopup').on('mouseleave', function () {
+
+                setTimeout(function () {
+                    $find("programmaticModalPopupBehavior").hide();
+                }, 500);
+            });
+
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         </script>
     </form>
 </body>

@@ -90,7 +90,11 @@
 
                                 <asp:Label ID="lblNew" runat="server" Text="Додади нова верзија"></asp:Label>
 
+<<<<<<< HEAD
                                 <input type="button" onclick="display('newVersion')" value=" add " class=" btn btn-default" />
+=======
+                                <input type="button" onclick="display('newVersion')" value=" add " class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             </div>
                             <asp:GridView ID="gvVersions" runat="server" DataKeyNames="id_version" OnRowCreated="gvVersions_RowCreated" AutoGenerateColumns="False" OnSelectedIndexChanged="gvVersions_SelectedIndexChanged" Style="width: 100%" CellPadding="4" ForeColor="#333333" GridLines="None">
                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
@@ -114,12 +118,20 @@
                                     <asp:TemplateField>
                                         <ItemTemplate>
                                             <asp:Button ID="btnEdit" runat="server" Text="edit" RowIndex='<%# Eval("id_version") %>'
+<<<<<<< HEAD
                                                 OnClick="btnEdit_click" OnClientClick="display1('newVersion1')" class=" btn btn-default" />
+=======
+                                                OnClick="btnEdit_click" OnClientClick="display1('newVersion1')" class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField>
                                         <ItemTemplate>
+<<<<<<< HEAD
                                             <asp:Button ID="ibtn1" runat="server" Text="delete" RowIndex='<%# Eval("id_version") %>' OnClick="button_click" class=" btn btn-default" />
+=======
+                                            <asp:Button ID="ibtn1" runat="server" Text="delete" RowIndex='<%# Eval("id_version") %>' OnClick="button_click" class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                       <asp:TemplateField>
@@ -128,6 +140,7 @@
                                         </ItemTemplate>
                                     </asp:TemplateField>
                              
+<<<<<<< HEAD
                                      <asp:TemplateField>
                                         <ItemTemplate>
                                             <a href="<%# Eval("file_path")%>">download</a>
@@ -137,6 +150,12 @@
                                     <asp:TemplateField>
                                     <ItemTemplate>
                                         <asp:LinkButton ID="lnkDownload" Text = "view" RowIndex= '<%# Eval("id_version") %>' runat="server" OnClick = "DownloadFile"></asp:LinkButton>
+=======
+
+                                    <asp:TemplateField>
+                                    <ItemTemplate>
+                                        <asp:LinkButton ID="lnkDownload" Text = "Download" RowIndex= '<%# Eval("id_version") %>' runat="server" OnClick = "DownloadFile"></asp:LinkButton>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 
@@ -178,6 +197,7 @@
                                 </tr>
                                 <tr>
                                     <td>
+<<<<<<< HEAD
                                         <asp:Label ID="lblDesc" runat="server" Text="Опис "></asp:Label></td>
                                     <td>
                                         <asp:TextBox ID="txtDesc" runat="server" class="form-control"></asp:TextBox>
@@ -186,6 +206,8 @@
                                 </tr>
                                 <tr>
                                     <td>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         <asp:Label ID="lblActive1" runat="server" Text="Дали верзијата е активна"></asp:Label></td>
                                     <td>
                                         <asp:RadioButtonList ID="RadioButtonList11" runat="server">
@@ -197,7 +219,11 @@
 
                             </table>
                             <div class="btnDown" style="margin-right:33%">
+<<<<<<< HEAD
                                         <input type="button" onclick="hide('newVersion1')" value="Cancel" class=" btn btn-primary" />
+=======
+                                        <input type="button" onclick="hide('newVersion1')" value="Cancel" class="scroll btn btn-primary" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                                  <asp:Button ID="btnUpdate1" runat="server" Text="Update" OnClick="btnUpdate_Click" class="btn btn-primary" Visible="false"  ValidationGroup="group1"/>
                                     
@@ -225,6 +251,7 @@
 
                             </td>
                         </tr>
+<<<<<<< HEAD
 
                         <tr>
                             <td>
@@ -235,6 +262,8 @@
                             </td>
                         </tr>
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                         <tr>
                             <td>
                                 <asp:Label ID="lblActive" runat="server" Text="Дали верзијата е активна "></asp:Label></td>
@@ -255,7 +284,11 @@
                         
                     </table>
                     <div class="btnDown" style="margin-right:33%">
+<<<<<<< HEAD
                                 <input type="button" onclick="hide('newVersion')" value="Cancel" class=" btn btn-primary" />
+=======
+                                <input type="button" onclick="hide('newVersion')" value="Cancel" class="scroll btn btn-primary" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                         <asp:Button ID="btnConfirmAdd" runat="server" Text="Save" OnClick="btnConfirmAdd_Click" class="btn btn-primary" ValidationGroup="group2"/>
 

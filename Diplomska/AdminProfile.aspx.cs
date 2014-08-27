@@ -6,16 +6,24 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using MySql.Data.MySqlClient;
 using System.Data;
+<<<<<<< HEAD
 using System.Configuration;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 namespace Diplomska
 {
     public partial class AdminProfile : System.Web.UI.Page
     {
         
+<<<<<<< HEAD
             // static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
         static string connString = ConfigurationManager.ConnectionStrings["connectionStr"].ConnectionString;
       //  static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+=======
+             //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         MySqlConnection conn = new MySqlConnection(connString);
 
         protected void Page_Load(object sender, EventArgs e)
@@ -64,7 +72,11 @@ namespace Diplomska
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Response.Redirect("Admin.aspx");
+=======
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         }
 
         protected void btnSave_Click(object sender, EventArgs e)
@@ -106,7 +118,10 @@ namespace Diplomska
             finally{
             
                 conn.Close();
+<<<<<<< HEAD
                
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             }
         
         }

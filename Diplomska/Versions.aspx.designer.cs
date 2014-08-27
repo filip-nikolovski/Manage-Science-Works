@@ -184,6 +184,7 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
         
         /// <summary>
+<<<<<<< HEAD
         /// lblDesc control.
         /// </summary>
         /// <remarks>
@@ -202,6 +203,8 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.TextBox txtDesc;
         
         /// <summary>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// lblActive1 control.
         /// </summary>
         /// <remarks>
@@ -283,6 +286,7 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
+<<<<<<< HEAD
         /// lblDesc1 control.
         /// </summary>
         /// <remarks>
@@ -301,6 +305,8 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.TextBox txtDesc1;
         
         /// <summary>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// lblActive control.
         /// </summary>
         /// <remarks>

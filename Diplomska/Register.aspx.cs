@@ -6,17 +6,26 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using MySql.Data.MySqlClient;
+<<<<<<< HEAD
 using System.Configuration;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 namespace Diplomska
 {
     public partial class Register : System.Web.UI.Page
     {
         //conn string
+<<<<<<< HEAD
         //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
 
         static string connString = ConfigurationManager.ConnectionStrings["connectionStr"].ConnectionString;
         // static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+=======
+        //static string connString = "SERVER=localhost; DATABASE=naucen_trud; UID=ROOT; PWD=filip;";
+        //static String connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         MySqlConnection conn = new MySqlConnection(connString);
 
         protected void Page_Load(object sender, EventArgs e)
@@ -30,14 +39,22 @@ namespace Diplomska
                     conn.Open();
 
                     //ddl UNIVERSITY
+<<<<<<< HEAD
              /**       string sqlSelectUniversity = "SELECT * FROM university";
+=======
+                    string sqlSelectUniversity = "SELECT * FROM university";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     MySqlDataAdapter adapterUniversity = new MySqlDataAdapter(sqlSelectUniversity, conn);
 
                     DataSet dsUni = new DataSet();
                     adapterUniversity.Fill(dsUni);
 
                     ddlUniversity.DataSource = dsUni;
+<<<<<<< HEAD
                     ddlUniversity.DataBind(); **/
+=======
+                    ddlUniversity.DataBind();
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 }
                 catch (Exception ex)
                 {
@@ -58,8 +75,13 @@ namespace Diplomska
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
            // try
            // {
+=======
+            try
+            {
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 conn.Open();
 
                 //checked is email registred
@@ -78,7 +100,11 @@ namespace Diplomska
 
                     //insert into user_info data about user registration
 
+<<<<<<< HEAD
                     String sqlInsert = "INSERT INTO user_info(name, surname, email, password, accsepted, lab, faculty) VALUES(?name, ?surname, ?email, ?password, ?accsepted, ?lab, ?faculty)";
+=======
+                    String sqlInsert = "INSERT INTO user_info(name, surname, email, password, accsepted, labs_id) VALUES(?name, ?surname, ?email, ?password, ?accsepted, ?labs_id)";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     // MySqlCommand cmd = new MySqlCommand(sqlInsert, conn);
                     MySqlCommand cmd = conn.CreateCommand();
                     cmd.CommandType = CommandType.Text;
@@ -90,9 +116,13 @@ namespace Diplomska
                     cmd.Parameters.Add("?email", txtEmail.Text);
                     cmd.Parameters.Add("?password", txtPassword.Text);
                     cmd.Parameters.Add("?accsepted", 2);
+<<<<<<< HEAD
                     //cmd.Parameters.Add("?labs_id", ddlLab.SelectedValue);
                     cmd.Parameters.Add("?faculty", txtFaculty.Text);
                     cmd.Parameters.Add("?lab", txtLab.Text);
+=======
+                    cmd.Parameters.Add("?labs_id", ddlLab.SelectedValue);
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 
                     cmd.ExecuteNonQuery();
@@ -101,6 +131,7 @@ namespace Diplomska
 
                     lblErr.Text = "email адресата е во употреба!";
             }
+<<<<<<< HEAD
         //    }
         //    catch (Exception ex)
           //  {
@@ -112,6 +143,19 @@ namespace Diplomska
                 conn.Close();
                
             //}
+=======
+            }
+            catch (Exception ex)
+            {
+
+                //Label1.Text = ex.ToString();
+            }
+            finally {
+
+                conn.Close();
+               
+            }
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
         }
 
@@ -120,7 +164,11 @@ namespace Diplomska
             Response.Redirect("Login.aspx");
         }
 
+<<<<<<< HEAD
     /**    protected void ddlUniversity_SelectedIndexChanged(object sender, EventArgs e)
+=======
+        protected void ddlUniversity_SelectedIndexChanged(object sender, EventArgs e)
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         {
             conn.Open();
 
@@ -196,6 +244,10 @@ namespace Diplomska
             ddlLab.DataBind();
 
             conn.Close();
+<<<<<<< HEAD
         } **/
+=======
+        }
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     }
 }

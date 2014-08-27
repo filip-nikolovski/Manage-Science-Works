@@ -7,16 +7,23 @@ using System.Web.UI.WebControls;
 using MySql.Data.MySqlClient;
 using System.Data;
 using System.Net.Mail;
+<<<<<<< HEAD
 using System.Configuration;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 namespace Diplomska
 {
     public partial class RessetPassword : System.Web.UI.Page
     {
         //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
+<<<<<<< HEAD
 
         static string connString = ConfigurationManager.ConnectionStrings["connectionStr"].ConnectionString;
         // static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+=======
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         MySqlConnection conn = new MySqlConnection(connString);
 
         protected void Page_Load(object sender, EventArgs e)

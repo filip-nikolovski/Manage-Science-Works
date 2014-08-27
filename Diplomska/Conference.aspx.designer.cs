@@ -184,112 +184,197 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
         
         /// <summary>
+<<<<<<< HEAD
         /// lblFullName control.
+=======
+        /// lblPlace control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label lblFullName;
         
         /// <summary>
         /// txtFullName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFullName;
-        
-        /// <summary>
-        /// RequiredFieldValidator3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
-        
-        /// <summary>
-        /// lblShortName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblShortName;
-        
-        /// <summary>
-        /// txtShortName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtShortName;
-        
-        /// <summary>
-        /// RequiredFieldValidator4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
-        
-        /// <summary>
-        /// lblPlace control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
+=======
         protected global::System.Web.UI.WebControls.Label lblPlace;
         
         /// <summary>
         /// txtPlace control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.TextBox txtFullName;
+        
+        /// <summary>
+        /// RequiredFieldValidator3 control.
+=======
         protected global::System.Web.UI.WebControls.TextBox txtPlace;
         
         /// <summary>
         /// RequiredFieldValidator1 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        
+        /// <summary>
+        /// lblShortName control.
+=======
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
         /// lblState control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Label lblShortName;
+        
+        /// <summary>
+        /// txtShortName control.
+=======
         protected global::System.Web.UI.WebControls.Label lblState;
         
         /// <summary>
         /// txtState control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.TextBox txtShortName;
+        
+        /// <summary>
+        /// RequiredFieldValidator4 control.
+=======
         protected global::System.Web.UI.WebControls.TextBox txtState;
         
         /// <summary>
         /// RequiredFieldValidator2 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        
+        /// <summary>
+        /// lblPlace control.
+=======
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        
+        /// <summary>
+        /// lblFullName control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Label lblPlace;
+        
+        /// <summary>
+        /// txtPlace control.
+=======
+        protected global::System.Web.UI.WebControls.Label lblFullName;
+        
+        /// <summary>
+        /// txtFullName control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.TextBox txtPlace;
+        
+        /// <summary>
+        /// RequiredFieldValidator1 control.
+=======
+        protected global::System.Web.UI.WebControls.TextBox txtFullName;
+        
+        /// <summary>
+        /// RequiredFieldValidator3 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        
+        /// <summary>
+        /// lblState control.
+=======
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        
+        /// <summary>
+        /// lblShortName control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Label lblState;
+        
+        /// <summary>
+        /// txtState control.
+=======
+        protected global::System.Web.UI.WebControls.Label lblShortName;
+        
+        /// <summary>
+        /// txtShortName control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.TextBox txtState;
+        
+        /// <summary>
+        /// RequiredFieldValidator2 control.
+=======
+        protected global::System.Web.UI.WebControls.TextBox txtShortName;
+        
+        /// <summary>
+        /// RequiredFieldValidator4 control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+=======
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         
         /// <summary>
         /// lblYear control.

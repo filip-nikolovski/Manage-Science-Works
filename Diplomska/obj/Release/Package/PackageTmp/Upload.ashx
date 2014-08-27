@@ -36,6 +36,7 @@ public class Upload : IHttpHandler, IRequiresSessionState {
         DataSet ds = new DataSet();
         adapter.Fill(ds);
 
+<<<<<<< HEAD
        
         try
         {
@@ -44,6 +45,12 @@ public class Upload : IHttpHandler, IRequiresSessionState {
             string vName = ds.Tables[0].Rows[0]["version_name"].ToString();
             
             
+=======
+        string sw = ds.Tables[0].Rows[0]["title"].ToString();
+        string vName=ds.Tables[0].Rows[0]["version_name"].ToString();
+        try
+        {
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             HttpPostedFile postedFile = context.Request.Files["Filedata"];
             
             string savepath = "";

@@ -21,7 +21,11 @@
 
             <asp:Label ID="lblLoged" runat="server" Text=""></asp:Label>  <a href="AdminProfile.aspx">   <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label></a>
 
+<<<<<<< HEAD
                 (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="btnLoguot_Click" Text="Logout"></asp:LinkButton>)
+=======
+                (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="Button1_Click" Text="Logout"></asp:LinkButton>)
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
             </div>
        

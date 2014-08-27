@@ -7,16 +7,24 @@ using System.Web.UI.WebControls;
 using MySql.Data.MySqlClient;
 using System.Data;
 using System.IO;
+<<<<<<< HEAD
 using System.Configuration;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 namespace Diplomska
 {
     public partial class Index : System.Web.UI.Page
     {
+<<<<<<< HEAD
         //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
 
         static string connString = ConfigurationManager.ConnectionStrings["connectionStr"].ConnectionString;
         // static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+=======
+        //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         MySqlConnection conn = new MySqlConnection(connString);
         protected DataSet dsHolidays;
 
@@ -29,10 +37,17 @@ namespace Diplomska
             {
 
             //addWork.Visible = false;
+<<<<<<< HEAD
             //Session["New"] = "filip@finki.com";
             if (Session["New"] == null)
             {
                 Response.Redirect("Login.aspx");
+=======
+           // Session["New"] = "filip@finki.com";
+            if (Session["New"] == null)
+            {
+                 Response.Redirect("Login.aspx");
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             }
             else
             {
@@ -314,10 +329,17 @@ namespace Diplomska
                 DeleteDirectoryExist(Server.MapPath("~/uploads/projects/" + swName));
 
 
+<<<<<<< HEAD
                 string sqlDelete = "DELETE FROM  science_work WHERE id =?id";
                 MySqlCommand cmd = new MySqlCommand(sqlDelete, conn);
 
                 cmd.Parameters.Add("?id", Convert.ToInt32(rowIndex));
+=======
+                string sqlDelete = "DELETE FROM  science_work WHERE id =@id";
+                MySqlCommand cmd = new MySqlCommand(sqlDelete, conn);
+
+                cmd.Parameters.AddWithValue("@id", Convert.ToInt32(rowIndex.ToString()));
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)

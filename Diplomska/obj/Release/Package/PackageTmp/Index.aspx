@@ -6,26 +6,45 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
+<<<<<<< HEAD
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>Научни трудови</title>
+=======
+    <title></title>
+     
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
     <link href="style/style.css" rel="stylesheet" />
     <link href="style/bootstrap.css" rel="stylesheet" />
     <link href="style/justified-nav.css" rel="stylesheet" />
     <script src="scripts/jquery.js" type="text/javascript"></script>
+<<<<<<< HEAD
       
     <script>
 
 
         function display(id) {
             var traget = document.getElementById(id);
+=======
+    
+  
+    <script type="text/javascript">
+
+
+        function display(id) {
+
+            var traget = document.getElementById(id);
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             traget.style.display = "block";
             //window.location = "#addConference ";
             $('html,body').animate({
                 scrollTop: $("#addWork").offset().top
             }, 750);
 
+<<<<<<< HEAD
             document.getElementById('txtTitle').value = '';
             document.getElementById('txtPrice').value = '';
             document.getElementById('txtDescription').value = '';
@@ -41,22 +60,91 @@
          
             target.style.display = "none";
 
+=======
+            return false;
+        }
+        
+        function hide(id) {
+            var target = document.getElementById(id);
+            //window.location = "#gv";
+            
+         
+            target.style.display = "none";
+            
+            document.getElementById('txtTitle').value = '';
+            document.getElementById('txtPrice').value = '';
+            document.getElementById('txtDate').value = '';
+            document.getElementById('txtDescription').value = '';
+            document.getElementById('TextBox1').value = '';
+
+            return false;
+        }
+
+        $(document).ready(function () {
+            $(".scroll").click(function (event) {
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 500);
+            });
+        });
+
+    </script>
+
+    
+    
+       
+   
+
+    <script>
+        function display1(id) {
+            var traget = document.getElementById(id);
+
+            traget.style.display = "block";
+
+        }
+
+        function hide1(id) {
+            var target = document.getElementById(id);
+            target.style.display = "none";
+        }
+
+        function hide11(id) {
+            var target = document.getElementById(id);
+            target.style.display = "none";
+
+            $('html,body').animate({
+                scrollTop: $("#addWork").offset().top
+            }, 1000);
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         }
 
 
     </script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     
 </head>
 <body>
     <form id="form1" runat="server" method="post" enctype="multipart/form-data">
         <div class="container">
             <div id="acount">
+<<<<<<< HEAD
                 <a href="http://www.ukim.edu.mk/" style="float: left">
                     <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /></a><a href="http://www.finki.ukim.mk/mk/home" style="float: left"> <asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a><a href="http://liit.finki.ukim.mk/" style="float: left"><asp:Image ID="ImageliitLogo" runat="server" ImageUrl="~/Images/liit1 logo.png"  Style="height:100%;width:70%;float:left;margin-bottom:-1px"/></a>
                 <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
 
                 
 (<asp:LinkButton runat="server" ID="lbtnLoguot" OnClick="Button1_Click" Text="Logout"></asp:LinkButton>)
+=======
+                <a href="Index.aspx" style="float: left">
+                    <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/ukim-logo-9.png" /><asp:Image ID="imgLogo1" runat="server" ImageUrl="~/Images/finki-logo-9.png" /></a>
+                <asp:Label ID="lblLogedAs" runat="server" Text=""></asp:Label><a href="UserProfile.aspx"><asp:Label ID="lblLogedAs1" runat="server" Text=""></asp:Label></a>
+
+                &nbsp;
+
+        <asp:Button ID="btnLoguot" runat="server" OnClick="Button1_Click" Text="Loguot" Width="70px" />
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
             </div>
 
@@ -69,8 +157,11 @@
 
                 </ul>
             </div>
+<<<<<<< HEAD
              <asp:ScriptManager ID="ScriptManager2" runat="server">
                         </asp:ScriptManager>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
                     <div class="main-content">
@@ -81,7 +172,11 @@
                             </div>
                             <div id="newWork">
                                 <asp:Label ID="lblNew" runat="server" Text="Додади научен труд"></asp:Label> &nbsp;
+<<<<<<< HEAD
                                 <asp:Button ID="btnAdd" runat="server" Text="add" OnClientClick="display('addWork')" OnClick="btnAdd_Click" class=" btn btn-default"  />
+=======
+                                <asp:Button ID="btnAdd" runat="server" Text="add" OnClientClick="display('addWork')" OnClick="btnAdd_Click" class="scroll btn btn-default"  />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             </div>
                             <asp:GridView ID="gvList" runat="server" DataKeyNames="id" AutoGenerateColumns="False"  OnRowCreated="gvList_RowCreated" Style="width: 1000%" CellPadding="10" ForeColor="#333333" GridLines="None">
                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
@@ -94,7 +189,12 @@
                                     <asp:BoundField DataField="title" HeaderText="Title" />
                                     <asp:BoundField DataField="autores" HeaderText="autors" />
                                     
+<<<<<<< HEAD
                                     <asp:BoundField DataField="date" HeaderText="Created" />
+=======
+                                    <asp:BoundField DataField="price" HeaderText="Price" />
+                                    <asp:BoundField DataField="date" HeaderText="Date" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                     
                                     <asp:TemplateField>
                                         <ItemTemplate>
@@ -113,7 +213,11 @@
                                       <asp:TemplateField>
                                         <ItemTemplate>
                                             <asp:Button ID="btnEdit" runat="server" Text="edit" RowIndex='<%# Eval("id") %>'
+<<<<<<< HEAD
                                                 OnClick="btnEdit_click" OnClientClick="display('addWork')" class=" btn btn-default" />
+=======
+                                                OnClick="btnEdit_click" OnClientClick="display('addWork')" class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                  
@@ -143,9 +247,17 @@
                             <asp:Label ID="lblEx" runat="server" Text=""></asp:Label>
                         </div>
 
+<<<<<<< HEAD
                         <asp:Panel runat="server" ID="addWork" class="add" Style="display: block">
                            
                             <button type="button" class="close" aria-hidden="true" onclick="hide('addWork')">&times;</button>
+=======
+                        <asp:ScriptManager ID="ScriptManager2" runat="server">
+                        </asp:ScriptManager>
+
+                        <asp:Panel runat="server" ID="addWork" class="add" Style="display: block">
+                            <input type="button" value="" class="button_add" onclick="hide('addWork')" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             <h3 class="text-muted">
                                 <asp:Label ID="lblTitle1" runat="server" Text="Креирај Труд"></asp:Label></h3>
 
@@ -179,7 +291,23 @@
                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtPrice" ValidationGroup="group1"></asp:RequiredFieldValidator>
                                     </td>
                                 </tr>
+<<<<<<< HEAD
       
+=======
+                                <tr>
+                                    <td>
+                                        <asp:Label ID="lblDate" runat="server" Text="Дтаум: "></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="txtDate" runat="server" class="form-control" ></asp:TextBox>
+                                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/icon.jpg" AlternateText="Calendar" Height="20px" Width="20px" />
+
+                                        <asp:CalendarExtender ID="CalendarExtender1" runat="server" TargetControlID="txtDate" PopupButtonID="ImageButton1" Format="yyyy-MM-dd" PopupPosition="BottomRight"></asp:CalendarExtender>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtDate" ValidationGroup="group1"></asp:RequiredFieldValidator>
+
+                                    </td>
+                                </tr>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                 <tr>
                                     <td>
                                         <asp:Label ID="lblAccesepted" runat="server" Text="Прифатен: "></asp:Label>
@@ -209,7 +337,11 @@
                             </table>
 
                             <div class="btnDown">
+<<<<<<< HEAD
                                 <input type="button" onclick="hide('addWork')" value="Cancel" class=" btn btn-primary" />
+=======
+                                <input type="button" onclick="hide('addWork')" value="Cancel" class="scroll btn btn-primary" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                                         <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" Visible="false" ValidationGroup="group1" class="btn btn-primary" />
 
@@ -235,9 +367,13 @@
     <asp:Panel ID="pnlPopup" runat="server" CssClass="modalPopup" Style="display: none"  >
         <div class="header">
            
+<<<<<<< HEAD
             Избери кориспондинг автори 
             <button type="button" class="close" aria-hidden="true" onclick="HideModalPopup()">&times;</button>
 
+=======
+            Избери кориспондинг автори <input type="button" value="" class="button_add" onclick="HideModalPopup()" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         </div>
         <div class="body">
            <div runat="server"  id="pnl"  style="overflow-y:scroll;height:250px;">
@@ -266,8 +402,12 @@
                             <div class="header">
 
                                 <asp:Label ID="lblPopUpSWDetails" runat="server" Text="Label"></asp:Label>
+<<<<<<< HEAD
                                 
                                 <button type="button" class="close" aria-hidden="true" onclick=" HideModalPopup1(); return hide('addWork')">&times;</button>
+=======
+                                <input type="button" value="" class="button_add" onclick="HideModalPopup1()" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             </div>
                             <div class="body">
 
@@ -293,8 +433,13 @@
                                 <asp:Label ID="lblPopDescription" runat="server" Text=""></asp:Label><br />
 
                                 <div class="btnDown" style="margin-right:2%;margin-top:20%">
+<<<<<<< HEAD
 
                                     <input type="button" onclick=" HideModalPopup1(); return hide('addWork')" value="cancel" class="btn btn-primary" />
+=======
+                                <asp:Button ID="btnPopCancel" runat="server" Text="Cancel" OnClick="btnPopCancel_cancel" OnClientClick=" HideModalPopup1(); return hide('addWork')" class="btn btn-primary"/>
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                                 </div>
                                 
@@ -327,6 +472,7 @@
                              </div>
                         <asp:Button runat="server" ID="hiddenTargetControlForModalPopup" Style="display: none" />
                         <ajaxToolkit:ModalPopupExtender runat="server" ID="programmaticModalPopup" BehaviorID="programmaticModalPopupBehavior"
+<<<<<<< HEAD
                             TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="Panel1"
                              DropShadow="True" RepositionMode="RepositionOnWindowScroll">
                         </ajaxToolkit:ModalPopupExtender>
@@ -336,6 +482,20 @@
                                 <asp:Label ID="lblPopTitle1" runat="server" Text=""></asp:Label>
                             </div>
 
+=======
+                            TargetControlID="hiddenTargetControlForModalPopup" PopupControlID="programmaticPopup"
+                             DropShadow="True" RepositionMode="RepositionOnWindowScroll">
+                        </ajaxToolkit:ModalPopupExtender>
+                        <asp:Panel runat="server" CssClass="modalPopupCalendar" ID="programmaticPopup" style="display:none">
+
+                            <div class="calTitile" >
+                                <asp:Label ID="lblDTitle" runat="server" Text=""></asp:Label>
+                            </div>
+                            <div class="calBody">
+                                <a href="ViewEvent.aspx">
+                                    <asp:Label ID="lblDBody" runat="server" Text="Label"></asp:Label></a><br />
+                            </div>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                         </asp:Panel>
                     </div>
 
@@ -344,7 +504,11 @@
                    <h4>Настани кои следуваат</h4>
            <div runat="server"  id="Div1" class="asideReminder">
 
+<<<<<<< HEAD
                     <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None" EmptyDataText="Нема настани.">
+=======
+                    <asp:GridView ID="gvReminder" runat="server" DataKeyNames="id" AutoGenerateColumns="False" Style="width: 100%" OnRowCreated="gvReminder_RowCreated" OnSelectedIndexChanged="gvReminder_SelectedIndexChanged" ShowHeader="False" CellPadding="7" ForeColor="#333333" GridLines="None">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                         <Columns>
                             <asp:BoundField DataField="hol" HeaderText="Event" />
@@ -372,6 +536,7 @@
 
         
         <script>
+<<<<<<< HEAD
 
             var idd;
             function ShowInfo(id, ss) {
@@ -402,6 +567,35 @@
 
 
          
+=======
+            function popupModal(value, v) {
+
+                $get('<%=lblDTitle.ClientID %>').innerText = v;
+                $get('<%=lblDBody.ClientID %>').innerText = value;
+                var pop = $find('programmaticModalPopupBehavior');
+
+                pop.set_Y(event.clientY);
+                pop.show();
+
+            }
+
+
+            $(document).ready(function () {
+
+                document.getElementById('<%=addWork.ClientID%>').style.display = "none";
+
+            });
+
+                $('#programmaticPopup').on('mouseleave', function () {
+
+                    setTimeout(function () {
+                        $find("programmaticModalPopupBehavior").hide();
+                    }, 500);
+                });
+        </script>
+
+            <script type="text/javascript">
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 function ShowModalPopup() {
                     $find("mpe").show();
                     return false;
@@ -409,18 +603,35 @@
                 function HideModalPopup() {
                     $find("mpe").hide();
 
+<<<<<<< HEAD
                  
+=======
+                    $('html,body').animate({
+                        scrollTop: $("#addWorkf").offset().top
+                    }, 1000);
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     return false;
                 }
 
 
                 function ShowModalPopup1() {
                     $find("mpe1").show();
+<<<<<<< HEAD
                     return false;
                 }
 
                 function HideModalPopup1() {
                     $find("mpe1").hide();
+=======
+                    
+                    
+                    return false;
+                }
+                function HideModalPopup1() {
+
+                    $find("mpe1").hide();
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     return false;
                 }
     </script>

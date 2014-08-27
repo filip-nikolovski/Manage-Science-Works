@@ -9,16 +9,24 @@ using System.Data;
 using AjaxControlToolkit;
 using System.IO;
 using Ionic.Zip;
+<<<<<<< HEAD
 using System.Configuration;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 namespace Diplomska
 {
     public partial class Versions : System.Web.UI.Page
     {
+<<<<<<< HEAD
         //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
 
         static string connString = ConfigurationManager.ConnectionStrings["connectionStr"].ConnectionString;
         // static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+=======
+       // static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         MySqlConnection conn = new MySqlConnection(connString);
         protected DataSet dsHolidays;
         static string swName = "";
@@ -335,7 +343,11 @@ namespace Diplomska
             try {
 
 
+<<<<<<< HEAD
                 string sqlInsert1 = "INSERT INTO versions (id_science_work, date_upload, active, uploader, file_name, file_size, file_path, version_name, description) VALUES(?id_science_work, ?date_upload, ?active, ?uploader, ?file_name, ?file_size, ?file_path, ?version_name, ?description)";
+=======
+                string sqlInsert1 = "INSERT INTO versions (id_science_work, date_upload, active, uploader, file_name, file_size, file_path, version_name) VALUES(?id_science_work, ?date_upload, ?active, ?uploader, ?file_name, ?file_size, ?file_path, ?version_name)";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 MySqlCommand cmd1 = new MySqlCommand(sqlInsert1, conn);
 
                 cmd1.Parameters.Add("?id_science_work", Convert.ToInt32(Session["sess"].ToString()));
@@ -346,7 +358,11 @@ namespace Diplomska
                 cmd1.Parameters.Add("?file_size",  FileUpload1.PostedFile.ContentLength);
                 cmd1.Parameters.Add("?file_path", Server.MapPath("~/uploads/projects/" + sw + "/" +txtVersionName.Text+"/"+ FileUpload1.FileName));
                 cmd1.Parameters.Add("?version_name", txtVersionName.Text);
+<<<<<<< HEAD
                 cmd1.Parameters.Add("?description", txtDesc1.Text);
+=======
+
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 cmd1.ExecuteNonQuery();
 
                 
@@ -432,6 +448,7 @@ namespace Diplomska
 
          protected void btnSource_Click(object sender, EventArgs e)
          {
+<<<<<<< HEAD
              try
              {
                  Button btnSource = sender as Button;
@@ -449,6 +466,12 @@ namespace Diplomska
              
              }
              
+=======
+             Button btnSource = sender as Button;
+             int rowIndex = Convert.ToInt32(btnSource.Attributes["RowIndex"].ToString());
+             Session["Source"] = rowIndex;
+             Response.Redirect("VersionSource.aspx");
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
          }
  
@@ -475,7 +498,10 @@ namespace Diplomska
                  adapter.Fill(ds);
 
                  txtVersionName1.Text = ds.Tables[0].Rows[0]["version_name"].ToString();
+<<<<<<< HEAD
                  txtDesc.Text = ds.Tables[0].Rows[0]["description"].ToString();
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                  RadioButtonList11.SelectedIndex =Math.Abs( Convert.ToInt32(ds.Tables[0].Rows[0]["active"].ToString())-1);
                  versionName = ds.Tables[0].Rows[0]["version_name"].ToString();
              }
@@ -496,14 +522,21 @@ namespace Diplomska
                  conn.Open();
 
 
+<<<<<<< HEAD
                  string sqlUpdate = "UPDATE versions SET  version_name=?version_name, description=?description, active=?active, file_path = REPLACE(file_path, ?file_path, ?file_pathNew) WHERE id_version=?id_version";
+=======
+                 string sqlUpdate = "UPDATE versions SET  version_name=?version_name, active=?active, file_path = REPLACE(file_path, ?file_path, ?file_pathNew) WHERE id_version=?id_version";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                  MySqlCommand cmd = new MySqlCommand(sqlUpdate, conn);
 
                  cmd.Parameters.Add("?version_name", txtVersionName1.Text);
                  cmd.Parameters.Add("?active", RadioButtonList11.SelectedValue);
                  cmd.Parameters.AddWithValue("?file_path", versionName );
                  cmd.Parameters.AddWithValue("?file_pathNew",txtVersionName1.Text );
+<<<<<<< HEAD
                  cmd.Parameters.Add("?description", txtDesc.Text);
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                  //cmd.Parameters.Add("?file_name", FileUpload1.PostedFile.FileName);
                  //cmd.Parameters.Add("?file_size", FileUpload1.PostedFile.ContentLength);
                  //cmd.Parameters.Add("?file_path", Server.MapPath("~/Images/Projects/" + swName + "/" + FileUpload1.FileName));
@@ -614,6 +647,7 @@ namespace Diplomska
              string vertitle = ds.Tables[0].Rows[0]["version_name"].ToString();
              string filename = ds.Tables[0].Rows[0]["file_name"].ToString();
 
+<<<<<<< HEAD
          /**  string filepath = Server.MapPath("~/uploads/projects/"+swtitle+"/"+vertitle);
              Response.ContentType = ContentType;
              Response.AppendHeader("Content-Disposition", "attachment; filename="+filename);
@@ -621,6 +655,13 @@ namespace Diplomska
              Response.End(); **/
 
              Response.Redirect("~/uploads/projects/" + swtitle + "/" + vertitle + "/" + filename);
+=======
+             string filepath = Server.MapPath("~/uploads/projects/nov trud/download/icon.jpg");
+             Response.ContentType = ContentType;
+             Response.AppendHeader("Content-Disposition", "attachment; filename=icon.jpg");
+             Response.WriteFile(filepath);
+             Response.End();
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
          }
 
 

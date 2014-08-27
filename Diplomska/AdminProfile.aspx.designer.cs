@@ -184,6 +184,7 @@ namespace Diplomska {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
         
         /// <summary>
+<<<<<<< HEAD
         /// RegularExpressionValidator1 control.
         /// </summary>
         /// <remarks>
@@ -194,29 +195,50 @@ namespace Diplomska {
         
         /// <summary>
         /// lblErr control.
+=======
+        /// btnCancel control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Label lblErr;
         
         /// <summary>
         /// btnCancel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
+=======
         protected global::System.Web.UI.WebControls.Button btnCancel;
         
         /// <summary>
         /// btnSave control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Button btnCancel;
+        
+        /// <summary>
+        /// btnSave control.
+=======
         protected global::System.Web.UI.WebControls.Button btnSave;
+        
+        /// <summary>
+        /// lblErr control.
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+<<<<<<< HEAD
+        protected global::System.Web.UI.WebControls.Button btnSave;
+=======
+        protected global::System.Web.UI.WebControls.Label lblErr;
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     }
 }

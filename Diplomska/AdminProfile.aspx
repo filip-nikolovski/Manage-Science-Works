@@ -67,16 +67,22 @@
                                     <td style="padding-left:5%;">
                                         <asp:TextBox ID="txtNewPass" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtNewPass" ValidationGroup="group1"></asp:RequiredFieldValidator>
+<<<<<<< HEAD
                     
                                          <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ValidationExpression="^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*$" ControlToValidate="txtNewPass" ErrorMessage="*Неправилен формат на лозинка" Display="Dynamic" ValidationGroup="group1"></asp:RegularExpressionValidator><br />
         <asp:Label ID="lblErr" runat="server" Text="" Visible="true"></asp:Label>
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                                     </td>
                                 </tr>
                               
 
                             </table>
+<<<<<<< HEAD
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                 <div class="btnDown" style="margin-right:20%">
                                         <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click"    class="btn btn-primary"/>
                                         <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click"  class="btn btn-primary" ValidationGroup="group1"/>
@@ -88,6 +94,10 @@
 
 
 
+<<<<<<< HEAD
+=======
+        <asp:Label ID="lblErr" runat="server" Text="" Visible="true"></asp:Label>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
    
         </div>
         </div>

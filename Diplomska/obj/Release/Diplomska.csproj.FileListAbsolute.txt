@@ -25,6 +25,7 @@ C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\obj\Release\Diplomska.dll
 C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\obj\Release\Diplomska.pdb
 C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\bin\Ionic.Zip.Reduced.dll
 C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\obj\Release\Diplomska.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\bin\Diplomska.dll
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\bin\Diplomska.pdb
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\bin\AjaxControlToolkit.dll
@@ -52,3 +53,5 @@ C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\bin\zh-CHT\
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\obj\Release\Diplomska.csprojResolveAssemblyReference.cache
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\obj\Release\Diplomska.dll
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\obj\Release\Diplomska.pdb
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a

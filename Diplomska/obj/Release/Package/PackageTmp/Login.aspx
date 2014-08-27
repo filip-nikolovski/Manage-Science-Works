@@ -4,7 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
+<<<<<<< HEAD
     <title>Најава</title>
+=======
+    <title></title>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     <link rel="shortcut icon" href="../Images/favicon.ico" />
     <link href="style/loginStile.css" rel="stylesheet" />
     <link href="style/bootstrap.css" rel="stylesheet" />

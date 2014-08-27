@@ -6,8 +6,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
+<<<<<<< HEAD
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
     <title>Научни трудови</title>
 
     <link href="style/style.css" rel="stylesheet" />
@@ -28,8 +31,14 @@
 
             document.getElementById('txtTitle').value = '';
             document.getElementById('txtPrice').value = '';
+<<<<<<< HEAD
             document.getElementById('txtDescription').value = '';
             document.getElementById('TextBox1').value = '';
+=======
+            document.getElementById('txtDate').value = '';
+            document.getElementById('txtDescription').value = ' ';
+            document.getElementById('TextBox1').value = ' ';
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 
         }
@@ -81,7 +90,11 @@
                             </div>
                             <div id="newWork">
                                 <asp:Label ID="lblNew" runat="server" Text="Додади научен труд"></asp:Label> &nbsp;
+<<<<<<< HEAD
                                 <asp:Button ID="btnAdd" runat="server" Text="add" OnClientClick="display('addWork')" OnClick="btnAdd_Click" class=" btn btn-default"  />
+=======
+                                <asp:Button ID="btnAdd" runat="server" Text="add" OnClientClick="display('addWork')" OnClick="btnAdd_Click" class="scroll btn btn-default"  />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                             </div>
                             <asp:GridView ID="gvList" runat="server" DataKeyNames="id" AutoGenerateColumns="False"  OnRowCreated="gvList_RowCreated" Style="width: 1000%" CellPadding="10" ForeColor="#333333" GridLines="None">
                                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
@@ -113,7 +126,11 @@
                                       <asp:TemplateField>
                                         <ItemTemplate>
                                             <asp:Button ID="btnEdit" runat="server" Text="edit" RowIndex='<%# Eval("id") %>'
+<<<<<<< HEAD
                                                 OnClick="btnEdit_click" OnClientClick="display('addWork')" class=" btn btn-default" />
+=======
+                                                OnClick="btnEdit_click" OnClientClick="display('addWork')" class="scroll btn btn-default" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                  
@@ -209,7 +226,11 @@
                             </table>
 
                             <div class="btnDown">
+<<<<<<< HEAD
                                 <input type="button" onclick="hide('addWork')" value="Cancel" class=" btn btn-primary" />
+=======
+                                <input type="button" onclick="hide('addWork')" value="Cancel" class="scroll btn btn-primary" />
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
                                         <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" Visible="false" ValidationGroup="group1" class="btn btn-primary" />
 
@@ -399,8 +420,11 @@
                 document.getElementById('<%=addWork.ClientID%>').style.display = "none";
             });
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
          
                 function ShowModalPopup() {
                     $find("mpe").show();
@@ -409,7 +433,13 @@
                 function HideModalPopup() {
                     $find("mpe").hide();
 
+<<<<<<< HEAD
                  
+=======
+                    $('html,body').animate({
+                        scrollTop: $("#addWorkf").offset().top
+                    }, 1000);
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     return false;
                 }
 

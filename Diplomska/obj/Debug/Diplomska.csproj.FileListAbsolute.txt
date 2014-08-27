@@ -51,6 +51,7 @@ C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\obj\Debug\Diplomska.dll
 C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\obj\Debug\Diplomska.pdb
 C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\obj\Debug\Diplomska.csprojResolveAssemblyReference.cache
 C:\Users\Filip Nikolovski\Desktop\Diplomska\Diplomska\bin\Ionic.Zip.Reduced.dll
+<<<<<<< HEAD
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\bin\Diplomska.dll
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\bin\Diplomska.pdb
 C:\Users\Filip Nikolovski\Desktop\New folder (2)\Diplomska\Diplomska\bin\AjaxControlToolkit.dll
@@ -132,3 +133,88 @@ C:\Users\Dell\Desktop\final bad upload\Diplomska\Diplomska\bin\zh-CHT\AjaxContro
 C:\Users\Dell\Desktop\final bad upload\Diplomska\Diplomska\obj\Debug\Diplomska.csprojResolveAssemblyReference.cache
 C:\Users\Dell\Desktop\final bad upload\Diplomska\Diplomska\obj\Debug\Diplomska.dll
 C:\Users\Dell\Desktop\final bad upload\Diplomska\Diplomska\obj\Debug\Diplomska.pdb
+=======
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\Diplomska.dll.config
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\Diplomska.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\Diplomska.pdb
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\HtmlAgilityPack.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\Ionic.Zip.Reduced.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\MySql.Data.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\HtmlAgilityPack.pdb
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\HtmlAgilityPack.xml
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.dll
+C:\Users\Dell\Dropbox\New folder\Backup SW\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.pdb
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\Diplomska.dll.config
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\Diplomska.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\Diplomska.pdb
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\AjaxControlToolkit.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\HtmlAgilityPack.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\Ionic.Zip.Reduced.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\MySql.Data.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\HtmlAgilityPack.pdb
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\HtmlAgilityPack.xml
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.dll
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.pdb
+C:\Users\Dell\Desktop\Skoro finalna\Diplomska\Diplomska\obj\Debug\Diplomska.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\Diplomska.dll.config
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\Diplomska.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\Diplomska.pdb
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\AjaxControlToolkit.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\HtmlAgilityPack.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\Ionic.Zip.Reduced.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\MySql.Data.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\HtmlAgilityPack.pdb
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\HtmlAgilityPack.xml
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\obj\Debug\Diplomska.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\obj\Debug\Diplomska.dll
+C:\Users\Dell\Desktop\Skoro finalna(apphb)\Diplomska\Diplomska\obj\Debug\Diplomska.pdb
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a

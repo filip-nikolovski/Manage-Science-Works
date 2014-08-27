@@ -48,6 +48,7 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtSurname" ValidationGroup="group1"></asp:RequiredFieldValidator>
                 </td>
             </tr>
+<<<<<<< HEAD
      
             <tr>
                 <td>
@@ -61,14 +62,60 @@
                 </td>
             </tr>
 
+=======
+            <tr>
+                <td>
+                    <asp:Label ID="lblUniversity" runat="server" Text="Унивиерзитет: "></asp:Label>
+                </td>
+                <td>
+                    <asp:DropDownList ID="ddlUniversity" runat="server" DataValueField="id" class="form-control" DataTextField="name" AutoPostBack="true" AppendDataBoundItems="true"  OnSelectedIndexChanged="ddlUniversity_SelectedIndexChanged">
+                        <asp:ListItem Value="0">-- Select university --</asp:ListItem>
+
+                    </asp:DropDownList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlUniversity" ValidationGroup="group1" InitialValue="0"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <asp:Label ID="lblFaculty" runat="server" Text="Факултет:"></asp:Label>
+                </td>
+                <td>
+                    <asp:DropDownList ID="ddlFaculty" runat="server" DataValueField="id" class="form-control" DataTextField="name" AutoPostBack="true" AppendDataBoundItems="true"  OnSelectedIndexChanged="ddlFaculty_SelectedIndexChanged">
+                        <asp:ListItem Value="0">-- Select faculty --</asp:ListItem>
+
+                    </asp:DropDownList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlFaculty" ValidationGroup="group1" InitialValue="0"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <asp:Label ID="lblInstitute" runat="server" Text="Институт:"></asp:Label>
+                </td>
+                <td>
+                        <asp:DropDownList ID="ddlInstitute" runat="server" DataValueField="id" class="form-control" DataTextField="name" AutoPostBack="true" AppendDataBoundItems="true"  OnSelectedIndexChanged="ddlInstitute_SelectedIndexChanged">
+                        <asp:ListItem Value="0">-- Select institute --</asp:ListItem>
+
+                    </asp:DropDownList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlInstitute" ValidationGroup="group1" InitialValue="0"></asp:RequiredFieldValidator>
+                </td>
+            </tr>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
               <tr>
                 <td>
                     <asp:Label ID="lblLab" runat="server" Text="Лабораторија: "></asp:Label>
                 </td>
                 <td>
+<<<<<<< HEAD
                 
                     <asp:TextBox ID="txtLab" runat="server" class="form-control" placeholder="Лабораторија"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="txtLab" ValidationGroup="group1" ></asp:RequiredFieldValidator>
+=======
+                    <asp:DropDownList ID="ddlLab" runat="server" DataValueField="id" class="form-control" DataTextField="Name" AutoPostBack="false" AppendDataBoundItems="true" >
+                        <asp:ListItem Value="0">-- Select labaratory --</asp:ListItem>
+
+                    </asp:DropDownList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlLab" ValidationGroup="group1" InitialValue="0"></asp:RequiredFieldValidator>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 </td>
             </tr>
 

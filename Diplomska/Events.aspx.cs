@@ -7,16 +7,24 @@ using System.Web.UI.WebControls;
 using System.Data;
 using MySql.Data.MySqlClient;
 using System.Web.UI.HtmlControls;
+<<<<<<< HEAD
 using System.Configuration;
+=======
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
 
 namespace Diplomska
 {
     public partial class Events : System.Web.UI.Page
     {
+<<<<<<< HEAD
         //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
 
         static string connString = ConfigurationManager.ConnectionStrings["connectionStr"].ConnectionString;
         // static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+=======
+        //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        static string connString = "SERVER=db4free.net;DATABASE=naucentrud;UID=badzovski;PWD=Filip12#;";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
         MySqlConnection conn = new MySqlConnection(connString);
         protected DataSet dsHolidays;
 
@@ -25,7 +33,11 @@ namespace Diplomska
             if (!IsPostBack)
             {
 
+<<<<<<< HEAD
                // Session["New"] = "filip@finki.com";
+=======
+             //   Session["New"] = "filip@finki.com";
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                 if (Session["New"] == null)
                 {
                     Response.Redirect("Login.aspx");
@@ -316,7 +328,11 @@ namespace Diplomska
                         cmd.Parameters.Add("?id", ddlSW.SelectedValue);
                         cmd.ExecuteNonQuery();
                     }
+<<<<<<< HEAD
                     else if (ddlEvent.SelectedValue == "date_camera_ready")
+=======
+                    else if (ddlEvent.SelectedValue == "date_camera_redy")
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     {
                         string insertEvent = "UPDATE conference set date_camera_redy=?date_camera_redy where id=?id";
                         MySqlCommand cmd = new MySqlCommand(insertEvent, conn);

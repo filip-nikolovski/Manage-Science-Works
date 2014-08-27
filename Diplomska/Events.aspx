@@ -140,7 +140,11 @@
                     <asp:ListItem Value="date_abstract">Date abstract</asp:ListItem>
                     <asp:ListItem Value="date_full_paper">Date full paper </asp:ListItem>
                     <asp:ListItem Value="date_izvestuvajne">Date izvestuvajne</asp:ListItem>
+<<<<<<< HEAD
                     <asp:ListItem Value="date_camera_ready">Date camera ready</asp:ListItem>
+=======
+                    <asp:ListItem Value="date_camera_redy">Date camera redy</asp:ListItem>
+>>>>>>> cc9771e163cb639c96757945fd47119dba0d514a
                     <asp:ListItem Value="date_konferencija">Date konferencija</asp:ListItem>
                 </asp:DropDownList>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Задолжително поле" Display="Dynamic" ControlToValidate="ddlEvent" ValidationGroup="group1" InitialValue="0"></asp:RequiredFieldValidator>
